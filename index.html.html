@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijan Das - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myjavascript.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1 class="hero-title"><b><u>Srijan Das</u></b></h1>
+            <p class="hero-subtitle">Student and Java Developer</p>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-content">
+                I am a student with a passion for Java development and a basic understanding of web development and Git/GitHub. I'm currently pursuing a B.Sc. in Computer Science Honours (1st year). I love learning new things.
+            </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="project">
+                <img src="https://miro.medium.com/v2/resize:fit:1081/1*1wVvuJUuCTDMg--uT8g3ig.png"width=400 alt="Sudoku Solver">
+                <h3 class="project-title">Sudoku Solver</h3>
+                <p class="project-description">Solve any Sudoku problem.</p>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNKqcc9Rl91hyMVFka7wL73BAJ9xE6CvwEj7m5S6Z7TE5HYLfkE33mOmcnqJNoVeKRQaI&usqp=CAU" alt="Employee Information Management System">
+                <h3 class="project-title">Employee Information Management System</h3>
+                <p class="project-description">A simple project for employee information management.</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>1. Java</li>
+                <li>2. HTML</li>
+                <li>3. Basic Web Development</li>
+                <li>4. Git/GitHub</li>
+                <!-- Add any other skills you want to showcase -->
+            </ul>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-content">
+                You can reach me at:<br>
+                Phone: 7029963104<br>
+                Email: <a href="mailto:kingofworld95463@gmail.com">kingofworld95463@gmail.com</a>
+                GitHub: <a href="https://github.com/unique336699">GitHub Link</a>
+            </p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer class="footer">
+        <p>&copy; 2023 Srijan Das</p>
+    </footer>
+</body>
+</html>
